@@ -1,0 +1,32 @@
+.App {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  height: 30px;
+}
+
+button {
+  height: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}
